@@ -162,7 +162,7 @@
 
 .container2 {
     background-color: white;
-    height: 350px;
+    height: 300px;
     width: 350px;
     border: solid 5px rgb(155, 157, 157);
     font-family: Arial, Helvetica, sans-serif;
@@ -286,7 +286,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 .container4 {
-    height: 400px;
+    height: 370px;
     width: 350px;
     border: 5px solid  rgb(182, 179, 179);
     margin-left: 30px;
@@ -295,7 +295,7 @@ h1 {
 }
 .connections {
     width: 350px;
-    height: 100px;
+    height: 70px;
     background-color: rgb(53, 52, 52);
     display: flex;
     align-items: center;
@@ -311,8 +311,8 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 .five {
-    height: 50px;
-    width: 75px;
+    height: 35px;
+    width: 50px;
     border-radius: 50%;
     border: 3px solid black;
     align-items: center;
@@ -328,11 +328,13 @@ h1 {
     font-size: larger;
 }
 .view {
-    height: 100px;
-    width: 400px;
+    height: 75px;
+    width: 350px;
     display: flex;
     justify-content: center;
-    font-size: larger;
+    align-items: flex-start;
+    font-size: medium;
+    padding: 0px;
 }
 .edit {
     align-items: center;
