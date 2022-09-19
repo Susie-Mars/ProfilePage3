@@ -233,6 +233,7 @@ h1 {
     align-items: flex-end;
     gap: 10px;
     margin-left: 10px;
+    display: flex;
 }
 .todde {
     height: 30px;
@@ -252,24 +253,19 @@ h1 {
 .Todd {
     display: flex;
     align-items: center;
+    
     justify-content: space-between;
     font-size: large;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.accept {
+.accept-decline {
     display: flex;
+    justify-content: flex-end;
     height: 30px;
     width: 30px;
-    justify-content: flex-end;
-
-}
-.decline {
-    display: flex;
-    height: 30px;
-    width: 30px;
-    justify-content: flex-end;
-
+    gap: 20px;
+    margin-left: 175px;
 }
 .phil {
     display: flex;
